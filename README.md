@@ -9,12 +9,15 @@ Open a terminal, go to the directory and open python, then import the auxilliary
 >python
 Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:06:47) [MSC v.1914 32 bit (Intel)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
->>>import mirrors as mr
->>> mr.summarize('case1.txt')
+import mirrors as mr
+mr.summarize('case1.txt')
+ 
 '2 4 3'
->>> mr.summarize('case2.txt')
+
+mr.summarize('case2.txt')
+ 
 '0'
->>> mr.summarize('case3.txt')
+mr.summarize('case3.txt')
 'Impossible'
 
 This is just a draft for functionality that is covered by case 1-3 in the information sheet.
